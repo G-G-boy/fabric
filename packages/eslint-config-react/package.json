@@ -1,6 +1,6 @@
 {
   "name": "@gavin/eslint-config-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "author": "gavin guo <1159782348@qq.com> (https://github.com/G-G-boy)",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "eslint": "^7.32.0"
   },
   "dependencies": {
-    "@gavin/eslint-config-typescript": "^0.0.2",
+    "@gavin/eslint-config-typescript": "^0.0.3",
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-testing-library": "^4.12.2"
