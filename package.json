@@ -10,13 +10,15 @@
   ],
   "scripts": {
     "release": "lerna publish --conventional-commits",
-    "format": "prettier --write ./**/*.{ts,js,json,md}"
+    "format": "prettier --write ./**/*.{js,json,md}"
   },
   "devDependencies": {
+    "@gavin/prettier": "*",
+    "@types/eslint": "^7.28.0",
+    "@types/stylelint": "^13.13.2",
     "eslint": "^7.32.0",
     "lerna": "^4.0.0",
     "prettier": "^2.4.0",
-    "typescript": "^4.4.3",
-    "@gavin/prettier": "*"
+    "typescript": "^4.4.3"
   }
 }

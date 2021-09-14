@@ -1,7 +1,7 @@
 /**
- * @type {import('prettier').Option}
+ * @type {import('prettier').Options}
  */
-const options =  {
+const options = {
     trailingComma: 'all',
     tabWidth: 4,
     semi: true,
@@ -9,6 +9,7 @@ const options =  {
     endOfLine: 'auto',
     printWidth: 100,
     bracketSpacing: false,
+    endOfLine: 'lf',
     overrides: [
         {
             files: '*.md',
@@ -20,6 +21,12 @@ const options =  {
             files: '*.json',
             options: {
                 tabWidth: 2,
+            },
+        },
+        {
+            files: '.prettierrc',
+            options: {
+                parser: 'json',
             },
         },
     ],

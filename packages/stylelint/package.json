@@ -7,7 +7,21 @@
   "files": [
     "index.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "stylelint": "^13.13.1"
+  },
+  "peerDependencies": {
+    "stylelint": ">=13.0.0"
+  },
+  "dependencies": {
+    "stylelint-config-css-modules": "^2.2.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.4.0",
+    "stylelint-no-unsupported-browser-features": "^5.0.2"
   }
 }
