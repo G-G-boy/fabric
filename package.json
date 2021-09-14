@@ -1,0 +1,22 @@
+{
+  "name": "@gavin/fabric",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "gavin guo <1159782348@qq.com> (https://github.com/G-G-boy)",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "release": "lerna publish --conventional-commits",
+    "format": "prettier --write ./**/*.{ts,js,json,md}"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "lerna": "^4.0.0",
+    "prettier": "^2.4.0",
+    "typescript": "^4.4.3",
+    "@gavin/prettier": "*"
+  }
+}
