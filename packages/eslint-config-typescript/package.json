@@ -1,6 +1,6 @@
 {
   "name": "@gavin/eslint-config-typescript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "author": "gavin guo <1159782348@qq.com> (https://github.com/G-G-boy)",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "eslint": "^7.32.0"
   },
   "dependencies": {
-    "@gavin/eslint-config-basic": "0.0.1",
+    "@gavin/eslint-config-basic": "^0.0.2",
     "@typescript-eslint/eslint-plugin": "^4.31.1",
     "@typescript-eslint/parser": "^4.31.1"
   },
