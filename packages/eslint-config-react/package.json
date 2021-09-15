@@ -1,5 +1,5 @@
 {
-  "name": "@ggboy/eslint-config-react",
+  "name": "@gavin-fabric/eslint-config-react",
   "version": "0.0.4",
   "main": "index.js",
   "author": "gavin guo <1159782348@qq.com> (https://github.com/G-G-boy)",
