@@ -33,4 +33,4 @@ const config = {
     rules: {},
 };
 
-exports.module = config;
+module.exports = config;

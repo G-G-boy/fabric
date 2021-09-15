@@ -4,7 +4,7 @@
 const config = {
     extends: [
         'plugin:react/recommended',
-        '@gavin/eslint-config-typescript',
+        '@gavin-fabric/eslint-config-typescript',
         '"plugin:testing-library/react"',
     ],
     plugins: ['react-hooks'],
@@ -21,4 +21,4 @@ const config = {
     },
 };
 
-exports.module = config;
+module.exports = config;
