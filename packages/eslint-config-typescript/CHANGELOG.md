@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.5 (2021-09-15)
+
+**Note:** Version bump only for package @gavin-fabric/eslint-config-typescript
+
+
+
+
+
 ## 0.0.4 (2021-09-14)
 
 **Note:** Version bump only for package @ggboy/eslint-config-typescript
