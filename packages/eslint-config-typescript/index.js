@@ -1,4 +1,4 @@
-const basic = require('@gavin/eslint-config-basic');
+const basic = require('@gavin-fabric/eslint-config-basic');
 
 /**
  * @type {import("eslint").Linter.Config}
