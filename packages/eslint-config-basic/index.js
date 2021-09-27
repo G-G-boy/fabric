@@ -9,6 +9,7 @@ const config = {
         jest: true,
         node: true,
     },
+    ignorePatterns: ['**/node_modules/*'],
     extends: ['standard', 'plugin:import/recommended', 'prettier'],
     plugins: ['prettier'],
     parserOptions: {

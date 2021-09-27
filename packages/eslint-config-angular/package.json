@@ -1,6 +1,6 @@
 {
-  "name": "@gavin-fabric/eslint-config-vue",
-  "version": "0.1.1",
+  "name": "@gavin-fabric/eslint-config-angular",
+  "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
   "author": "gavin guo <1159782348@qq.com> (https://github.com/G-G-boy)",
@@ -15,11 +15,13 @@
     "eslint": "^7.32.0"
   },
   "peerDependencies": {
-    "eslint": ">=7.4.0",
-    "vue": ">=3.0.0"
+    "@angular-eslint/eslint-plugin": ">=1.2.0",
+    "@angular-eslint/eslint-plugin-template": ">=1.2.0",
+    "@angular-eslint/template-parser": ">=1.2.0",
+    "@angular/core": ">=11.0.0",
+    "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@gavin-fabric/eslint-config-typescript": "^0.0.6",
-    "eslint-plugin-vue": "^7.18.0"
+    "@gavin-fabric/eslint-config-typescript": "^0.0.6"
   }
 }
