@@ -1,6 +1,6 @@
 {
   "name": "@gavin-fabric/eslint-config-angular",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "index.js",
   "license": "MIT",
   "author": "gavin guo <1159782348@qq.com> (https://github.com/G-G-boy)",
@@ -22,6 +22,6 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@gavin-fabric/eslint-config-typescript": "^0.1.0"
+    "@gavin-fabric/eslint-config-typescript": "^0.2.0"
   }
 }
