@@ -1,3 +1,3 @@
 module.exports = {
-    ...require('@gavin/prettier'),
+    ...require('@gavin-fabric/prettier'),
 };

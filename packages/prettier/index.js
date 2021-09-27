@@ -6,7 +6,6 @@ const options = {
     tabWidth: 4,
     semi: true,
     singleQuote: true,
-    endOfLine: 'auto',
     printWidth: 100,
     bracketSpacing: false,
     endOfLine: 'lf',
@@ -24,7 +23,7 @@ const options = {
             },
         },
         {
-            files: '.prettierrc',
+            files: ['.prettierrc', '.eslintrc', '.stylelintrc'],
             options: {
                 parser: 'json',
             },

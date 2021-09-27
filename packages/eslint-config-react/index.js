@@ -14,10 +14,13 @@ const config = {
         },
     },
     rules: {
-        //react
+        // react
         'react/jsx-uses-vars': 'warn',
-        //react-hooks
+        'react/react-in-jsx-scope': 'off',
+        'react/jsx-uses-react': 'off',
+        // react-hooks
         'react-hooks/rules-of-hooks': 'error',
+        'react-hooks/exhaustive-deps': 'error',
     },
 };
 

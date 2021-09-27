@@ -1,0 +1,25 @@
+{
+  "name": "@gavin-fabric/eslint-config-vue",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "gavin guo <1159782348@qq.com> (https://github.com/G-G-boy)",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "vue": ">=3.0.0"
+  },
+  "dependencies": {
+    "@gavin-fabric/eslint-config-typescript": "^0.0.6",
+    "eslint-plugin-vue": "^7.18.0"
+  }
+}

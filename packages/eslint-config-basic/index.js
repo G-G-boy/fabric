@@ -11,18 +11,15 @@ const config = {
     },
     extends: ['standard', 'plugin:import/recommended', 'prettier'],
     plugins: ['prettier'],
+    parserOptions: {
+        ecmaVersion: 2021,
+    },
     settings: {
         'import/resolver': {
-            node: {extensions: ['.js', '.ts', '.d.ts']},
+            node: {extensions: ['.js', '.ts', '.tsx', '.d.ts', '.vue', '.json']},
         },
     },
     overrides: [
-        {
-            files: ['*.d.ts'],
-            rules: {
-                'import/no-duplicates': 'off',
-            },
-        },
         {
             files: ['*.js'],
             rules: {
@@ -30,7 +27,10 @@ const config = {
             },
         },
     ],
-    rules: {},
+    rules: {
+        'no-unused-vars': 'off',
+        'no-var': 'error',
+    },
 };
 
 module.exports = config;

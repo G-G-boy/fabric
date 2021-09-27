@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "release": "lerna publish --conventional-commits",
-    "format": "prettier --write ./**/*.{js,json,md}"
+    "format": "prettier --write ./**/*.{js,json,md}",
+    "lint": "eslint . --ext .js"
   },
   "devDependencies": {
     "@gavin-fabric/eslint-config-basic": "*",
