@@ -31,6 +31,7 @@ const config = {
     rules: {
         'no-unused-vars': 'off',
         'no-var': 'error',
+        'prefer-arrow-callback': 'warn',
     },
 };
 
