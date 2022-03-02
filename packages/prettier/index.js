@@ -9,6 +9,7 @@ const options = {
     printWidth: 100,
     bracketSpacing: false,
     endOfLine: 'lf',
+    vueIndentScriptAndStyle: true,
     overrides: [
         {
             files: '*.md',
